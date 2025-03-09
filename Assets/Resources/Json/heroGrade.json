@@ -1,0 +1,16 @@
+{
+	"heroGradeList": [
+		{
+			"weight": 97.0,
+			"grade": 0
+		},
+		{
+			"weight": 2.1,
+			"grade": 1
+		},
+		{
+			"weight": 0.9,
+			"grade": 2
+		}
+	]
+}

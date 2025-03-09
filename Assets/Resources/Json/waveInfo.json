@@ -1,0 +1,484 @@
+{
+	"waveInformation" : [
+		{
+			"wave": 1,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 2,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 3,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 4,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 5,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		},
+		{
+			"wave": 6,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 7,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 8,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 9,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 10,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		},
+		{
+			"wave": 11,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 12,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 13,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 14,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 15,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 16,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 17,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 18,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 19,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 20,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		},
+		{
+			"wave": 21,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 22,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 23,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 24,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 25,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 26,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 27,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 28,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 29,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 30,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		},
+		{
+			"wave": 31,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 32,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 33,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 34,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 35,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 36,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 37,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 38,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 39,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 40,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		},
+		{
+			"wave": 41,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 42,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 43,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 44,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 45,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 46,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 47,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 48,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 49,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 50,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		},
+		{
+			"wave": 51,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 52,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 53,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 54,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 55,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 56,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 57,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 58,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 59,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 60,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		},
+		{
+			"wave": 61,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 62,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 63,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 64,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 65,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 66,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 67,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 68,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 69,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 70,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		},
+		{
+			"wave": 71,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 72,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 73,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 74,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 75,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 76,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 77,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 78,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 79,
+			"numOfNormalMonster": 20,
+			"numOfBossBonster": 0,
+			"time": 20
+		},
+		{
+			"wave": 80,
+			"numOfNormalMonster": 0,
+			"numOfBossBonster": 1,
+			"time": 60
+		}
+	]
+}
