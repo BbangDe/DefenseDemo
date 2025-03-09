@@ -22,6 +22,7 @@ public class AIManager : MonoBehaviour
 
     float count;
 
+    // AI 데이터 초기화
     private void Start()
     {
         instance = this;
@@ -37,8 +38,10 @@ public class AIManager : MonoBehaviour
 
     private void Update()
     {
+        // 시간 카운트해서 AI 움직임에 약간의 딜레이 추가
         count += Time.deltaTime;
 
+        // 소환 버튼은 0.1초 간격으로 누르기
         if(count < 0.1f)
         {
             if (numOfGold >= summonPrice)
@@ -52,6 +55,7 @@ public class AIManager : MonoBehaviour
                 count = 0f;
             }
         }
+        // 그 외의 조합은 0.2초 딜레이
         else if (count < 0.2f)
         {
             characterManager.AutoUpgrade(0);
@@ -59,11 +63,13 @@ public class AIManager : MonoBehaviour
         }
     }
 
+    // AI의 골드 수 증감함수
     public void AddNumOfGold(int num)
     {
         numOfGold += num;
     }
 
+    // AI의 다이아 수 증감함수
     public void AddNumOfDia(int num)
     {
         numOfDia += num;

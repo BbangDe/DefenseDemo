@@ -7,11 +7,13 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
+    // 현재 웨이브 시작시 나타내는 오브젝트
     [SerializeField]
     GameObject waveInfo;
     [SerializeField]
     TextMeshProUGUI waveInfoText;
 
+    // 보스 웨이브 시작시 나타내는 오브젝트
     [Space(3)]
     [SerializeField]
     GameObject bossWaveInfo;
@@ -27,6 +29,7 @@ public class UIManager : MonoBehaviour
     [Space(7)]
     [SerializeField]
     TextMeshProUGUI damageText;
+    // 보스 체력 텍스트
     [SerializeField]
     TextMeshProUGUI bossHPText;
 
@@ -45,6 +48,7 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI enemyGuageTxt;
 
+    // 소유중인 재화 표시 UI 텍스트
     [SerializeField]
     TextMeshProUGUI numOfGoldTxt;
     [SerializeField]
@@ -54,9 +58,11 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI summonPriceTxt;
 
+    // 추가 보스 소환 버튼
     [SerializeField]
     GameObject AddBoss;
 
+    // 초기 UI값으로 세팅
     public void Init(int wave = 0, int time = 0, int nowNumOfEnemy = 0, int maxNumOfEnemy = 100, int numOfGold = 100, int numOfDia = 0, int nowNumOfHero = 0, int maxNumOfHero = 20, int summonPrice = 30)
     {
         // 웨이브 0으로 초기화
@@ -113,20 +119,24 @@ public class UIManager : MonoBehaviour
         enemyGuageTxt.text = $"{nowNumOfEnemy} / {maxNumOfEnemy}";
     }
 
+    // 골드 개수 UI에 세팅
     public void SetNumOfGold(int numOfGold)
     {
         numOfGoldTxt.text = $"{numOfGold}";
     }
 
+    // 다이아 개수 UI에 세팅
     public void SetNumOfDia(int numOfDia)
     {
         numOfDiaTxt.text = $"{numOfDia}";
     }
 
+    // 소환 유닛 수 UI에 세팅
     public void SetNumOfHero(int nowNumOfHero, int maxNumOfHero)
     {
         numOfHeroTxt.text = $"{nowNumOfHero} / {maxNumOfHero}";
 
+        // 현재 소환가능 여부를 가져와서 가능하면 하얀글씨, 불가능하면 빨간글씨
         if (GameManager.instance.CanSummon())
         {
             summonPriceTxt.color = Color.white;
@@ -137,10 +147,12 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    // 변경된 소환 비용을 UI에 세팅
     public void SetSummonPrice(int summonPrice)
     {
         summonPriceTxt.text = $"{summonPrice}";
 
+        // 소환 가능여부도 표시
         if(GameManager.instance.CanSummon())
         {
             summonPriceTxt.color = Color.white;
@@ -151,14 +163,17 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    // 소환버튼 선택 시
     public void ClickSummonButton()
     {
+        // 소환 가능할 경우만 소환 시작
         if(GameManager.instance.CanSummon())
         {
             GameManager.instance.SummonHero();
         }
     }
 
+    // 웨이브 시작시 웨이브 보여줄 UI 애니메이션
     IEnumerator ShowWaveInfo(int wave)
     {
         waveInfoText.text = $"WAVE {wave}";
@@ -229,6 +244,7 @@ public class UIManager : MonoBehaviour
         waveInfo.transform.localScale = scale;
     }
 
+    // 보스 웨이브 시 애니메이션
     IEnumerator ShowBossWaveInfo(int wave)
     {
         bossWaveInfoText.text = $"WAVE {wave}";
@@ -329,11 +345,13 @@ public class UIManager : MonoBehaviour
         bossSprite.rectTransform.localScale = Vector3.zero;
     }
 
+    // 추가 보스 소환 버튼 활성화
     public void ActiveAddBoss()
     {
         AddBoss.SetActive(true);
     }
 
+    // 추가 보스 소환 선택 시 실행
     public void AddBossClick()
     {
         GameManager.instance.ClickAddBoss();

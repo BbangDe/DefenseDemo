@@ -5,6 +5,7 @@ using TMPro;
 
 public class UpgradeControl : MonoBehaviour
 {
+    // 각 업그레이드 별 금액 변수
     [SerializeField]
     TextMeshProUGUI upgradePriceText1;
     [SerializeField]
@@ -14,6 +15,7 @@ public class UpgradeControl : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI upgradePriceText4;
 
+    // 각 업그레이드 별 현재 레벨 변수
     [SerializeField]
     TextMeshProUGUI upgradeLevelText1;
     [SerializeField]
@@ -23,6 +25,7 @@ public class UpgradeControl : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI upgradeLevelText4;
 
+    // 현재 골드, 다이아 정보 표시 변수
     [SerializeField]
     TextMeshProUGUI goldTxt;
     [SerializeField]
@@ -33,15 +36,19 @@ public class UpgradeControl : MonoBehaviour
         UI_Upgrade();
     }
 
+    // 업그레이드 버튼 선택 시
     public void UpgradeButton(int grade)
     {
+        // 업그레이드가 가능한 경우에만 실행
         if(GameManager.instance.CanUpgrade(grade))
         {
+            // 업그레이드 함수 실행
             GameManager.instance.SetUpgrade(grade);
             UI_Upgrade();
         }
     }
 
+    // UI 정보 업데이트
     void UI_Upgrade()
     {
         if (GameManager.instance.CanUpgrade(0))
